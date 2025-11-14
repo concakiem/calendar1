@@ -1,0 +1,28 @@
+<svg width="180" height="50" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- kt part in bright red -->
+  <g fill="#FF0000">
+    <!-- Extended vertical line from k (tall thin line) -->
+    <line x1="8" y1="0" x2="8" y2="42" stroke="#FF0000" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- k letter body -->
+    <path d="M 8 8 L 8 18 L 18 10 L 18 14 L 10 20 L 18 26 L 18 30 L 8 22 L 8 42" 
+          stroke="#FF0000" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <!-- Horizontal line extending to the left from middle of k -->
+    <line x1="0" y1="18" x2="8" y2="18" stroke="#FF0000" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- t letter (overlapping with k) -->
+    <line x1="22" y1="8" x2="22" y2="32" stroke="#FF0000" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="18" y1="12" x2="26" y2="12" stroke="#FF0000" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- design part in dark blue (overlapping with t) -->
+  <g fill="#1E3A8A">
+    <text x="20" y="38" font-family="Arial, sans-serif" font-size="20" font-weight="bold" font-style="italic" fill="#1E3A8A">design</text>
+  </g>
+</svg>
+
